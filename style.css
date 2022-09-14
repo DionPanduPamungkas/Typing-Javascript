@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important; 
+	font-family: 'Montserrat';
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	background: url(1.jpg) no-repeat center;
+	background-size: cover;
+}
+section#main .text {
+	text-align: center;
+	max-width: 900px;
+	padding: 20px;
+}
+section#main .text h2 {
+	font-size: 3em;
+	color: #fff;
+	font-weight: 900;
+}
+section#main .text h2 span {
+	color: #f1c78a;
+}
+section#main .text h2 span.typed-cursor{
+	font-weight: 500;
+}
+section#main .text p {
+	font-size: 1em;
+	color: #fff;
+	margin: 10px 0;
+	font-weight: 300;
+}
+section#main .text a {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 30px;
+	border-radius: 20px;
+	text-decoration: none;
+	font-size: 1em;
+	color: #fff;
+	background: #ddbc8c;
+	font-weight: 600;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	transition: 0.5s ease;
+}
+section#main .text a:hover {
+	background: #f1c78a;
+}
+@media (max-width: 769px) {
+	section#main .text h2 {
+		font-size: 2.5em;
+	}
+	section#main .text p {
+		font-size: 14px;
+	}
+	section#main .text a {
+		padding: 10px 20px;
+		font-size: 14px;
+	}
+}
+@media (max-width: 600px)  {
+	section#main .text h2 {
+		font-size: 2em;
+	}
+	section#main .text p {
+		font-size: 13.5px;
+	}
+}

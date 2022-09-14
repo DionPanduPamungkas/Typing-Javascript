@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<section id="main">
+		<div class="text">
+			<h2>Hello I'm <span class="type"></span></h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque tempora autem iure in, facilis quis.</p>
+			<a href="" class="btn">About Me</a>
+		</div>
+	</section>
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<script>
+		var typed = new Typed('.type', {
+		  // Waits 1000ms after typing "First"
+		  strings: ['Mr.Robot.', 'Mr.Fireball.', 'Mr.Frog'],
+		  typeSpeed: 200,
+		  backSpeed: 100,
+		  fadeOutClass: 'typed-fade-out',
+		  loop: true
+		});
+	</script>
+</body>
+</html>
